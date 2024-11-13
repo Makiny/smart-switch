@@ -1,0 +1,54 @@
+/**
+ * @author kaiyin
+ */
+
+.common-list {
+    padding: 0 0 0 0;
+    margin: 0 0 15px 0;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+}
+
+.common-list-item {
+    margin: 0 20px 0 20px;
+    padding: 10px 0;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+.common-list-item:last-child {
+    border-bottom: none;
+}
+
+.common-list-item.disabled {
+    pointer-events: none; /* 禁用点击 */
+    opacity: 0.6; /* 视觉上的禁用效果 */
+}
+
+.checkmark-left {
+    position: absolute; /* 从流中移出 */
+    left: 0; /* 根据需要调整位置 */
+    top: 50%; /* 垂直居中 */
+    transform: translateY(-50%); /* 垂直居中对齐 */
+    width: 20px;
+    height: 20px;
+    background-image: url('@/assets/icons/check.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.checkmark-right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('@/assets/icons/check.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}

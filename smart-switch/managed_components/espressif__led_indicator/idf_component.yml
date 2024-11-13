@@ -1,0 +1,15 @@
+dependencies:
+  cmake_utilities:
+    version: 0.*
+  idf:
+    version: '>=4.0'
+  led_strip:
+    public: true
+    version: '>=2.5.2'
+description: LED indicator driver
+repository: git://github.com/espressif/esp-iot-solution.git
+repository_info:
+  commit_sha: dd15770d0f8c5fedea78809737f04b63d3765c83
+  path: components/led/led_indicator
+url: https://github.com/espressif/esp-iot-solution/tree/master/components/led/led_indicator
+version: 0.9.3

@@ -1,0 +1,4 @@
+/smart-switch/cmake-build-debug/
+/smart-switch/front/node_modules/
+/smart-switch/front/dist/
+.idea

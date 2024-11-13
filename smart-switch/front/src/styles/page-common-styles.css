@@ -1,0 +1,95 @@
+/**
+ * @author kaiyin
+ */
+
+.page-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* 中心对齐 */
+    padding: 10px 0;
+    background-color: #f0f0f0;
+    z-index: 1000;
+    height: 30px;
+}
+
+.public-page-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.public-page-title-note {
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    color: #333;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1px;
+    font-size: 14px;
+}
+
+.public-back-button {
+    position: absolute;
+    left: 20px; /* 确保返回按钮与屏幕左边有足够的间距 */
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    color: #007BFF;
+    transition: background-color 0.3s;
+    padding: 0 0;
+}
+
+.public-back-button:disabled {
+    color: #747474;
+    cursor: not-allowed;
+}
+
+.public-save-button {
+    position: absolute;
+    right: 20px; /* 确保连接按钮与屏幕右边有足够的间距 */
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    color: #007BFF;
+    transition: background-color 0.3s;
+    padding: 0 0;
+}
+
+.public-save-button:disabled {
+    color: #747474;
+    cursor: not-allowed;
+}
+
+.top-container {
+    margin-top: 50px; /* 根据需要调整间距，确保内容不被遮挡 */
+    padding: 10px;
+}
+
+.group-note {
+    font-size: 13px;
+    color: #666;
+    margin: 5px 20px 10px 20px;
+    position: relative;
+    top: -10px; /* 手动调整位置，使其更靠近上方内容 */
+}
+
+.made-tag {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 0;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 14px;
+}
